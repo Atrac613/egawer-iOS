@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		069DD0F5142EC8E30032439C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069DD0F4142EC8E30032439C /* UIKit.framework */; };
+		069DD0F7142EC8E30032439C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069DD0F6142EC8E30032439C /* Foundation.framework */; };
+		069DD0F9142EC8E30032439C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069DD0F8142EC8E30032439C /* CoreGraphics.framework */; };
+		069DD0FF142EC8E30032439C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 069DD0FD142EC8E30032439C /* InfoPlist.strings */; };
+		069DD101142EC8E30032439C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 069DD100142EC8E30032439C /* main.m */; };
+		069DD105142EC8E30032439C /* egawerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 069DD104142EC8E30032439C /* egawerAppDelegate.m */; };
+		069DD108142EC8E30032439C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 069DD106142EC8E30032439C /* MainWindow.xib */; };
+		069DD10B142EC8E30032439C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 069DD10A142EC8E30032439C /* RootViewController.m */; };
+		069DD10E142EC8E30032439C /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 069DD10C142EC8E30032439C /* RootViewController.xib */; };
+		069DD116142EC8E30032439C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069DD115142EC8E30032439C /* SenTestingKit.framework */; };
+		069DD117142EC8E30032439C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069DD0F4142EC8E30032439C /* UIKit.framework */; };
+		069DD118142EC8E30032439C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069DD0F6142EC8E30032439C /* Foundation.framework */; };
+		069DD119142EC8E30032439C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069DD0F8142EC8E30032439C /* CoreGraphics.framework */; };
+		069DD121142EC8E40032439C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 069DD11F142EC8E40032439C /* InfoPlist.strings */; };
+		069DD123142EC8E40032439C /* egawerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 069DD122142EC8E40032439C /* egawerTests.h */; };
+		069DD125142EC8E40032439C /* egawerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 069DD124142EC8E40032439C /* egawerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		069DD11A142EC8E40032439C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 069DD0E7142EC8E30032439C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 069DD0EF142EC8E30032439C;
+			remoteInfo = egawer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		069DD0F0142EC8E30032439C /* egawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = egawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		069DD0F4142EC8E30032439C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		069DD0F6142EC8E30032439C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		069DD0F8142EC8E30032439C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		069DD0FC142EC8E30032439C /* egawer-Info.plist */ = {isa = PBXFileReference; path = "egawer-Info.plist"; sourceTree = "<group>"; };
+		069DD0FE142EC8E30032439C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		069DD100142EC8E30032439C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		069DD102142EC8E30032439C /* egawer-Prefix.pch */ = {isa = PBXFileReference; path = "egawer-Prefix.pch"; sourceTree = "<group>"; };
+		069DD103142EC8E30032439C /* egawerAppDelegate.h */ = {isa = PBXFileReference; path = egawerAppDelegate.h; sourceTree = "<group>"; };
+		069DD104142EC8E30032439C /* egawerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = egawerAppDelegate.m; sourceTree = "<group>"; };
+		069DD107142EC8E30032439C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		069DD109142EC8E30032439C /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		069DD10A142EC8E30032439C /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		069DD10D142EC8E30032439C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		069DD114142EC8E30032439C /* egawerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = egawerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		069DD115142EC8E30032439C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		069DD11E142EC8E40032439C /* egawerTests-Info.plist */ = {isa = PBXFileReference; path = "egawerTests-Info.plist"; sourceTree = "<group>"; };
+		069DD120142EC8E40032439C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		069DD122142EC8E40032439C /* egawerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = egawerTests.h; sourceTree = "<group>"; };
+		069DD124142EC8E40032439C /* egawerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = egawerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		069DD0ED142EC8E30032439C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				069DD0F5142EC8E30032439C /* UIKit.framework in Frameworks */,
+				069DD0F7142EC8E30032439C /* Foundation.framework in Frameworks */,
+				069DD0F9142EC8E30032439C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		069DD110142EC8E30032439C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				069DD116142EC8E30032439C /* SenTestingKit.framework in Frameworks */,
+				069DD117142EC8E30032439C /* UIKit.framework in Frameworks */,
+				069DD118142EC8E30032439C /* Foundation.framework in Frameworks */,
+				069DD119142EC8E30032439C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		069DD0E5142EC8E30032439C = {
+			isa = PBXGroup;
+			children = (
+				069DD0FA142EC8E30032439C /* egawer */,
+				069DD11C142EC8E40032439C /* egawerTests */,
+				069DD0F3142EC8E30032439C /* Frameworks */,
+				069DD0F1142EC8E30032439C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		069DD0F1142EC8E30032439C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				069DD0F0142EC8E30032439C /* egawer.app */,
+				069DD114142EC8E30032439C /* egawerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		069DD0F3142EC8E30032439C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				069DD0F4142EC8E30032439C /* UIKit.framework */,
+				069DD0F6142EC8E30032439C /* Foundation.framework */,
+				069DD0F8142EC8E30032439C /* CoreGraphics.framework */,
+				069DD115142EC8E30032439C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		069DD0FA142EC8E30032439C /* egawer */ = {
+			isa = PBXGroup;
+			children = (
+				069DD103142EC8E30032439C /* egawerAppDelegate.h */,
+				069DD104142EC8E30032439C /* egawerAppDelegate.m */,
+				069DD106142EC8E30032439C /* MainWindow.xib */,
+				069DD109142EC8E30032439C /* RootViewController.h */,
+				069DD10A142EC8E30032439C /* RootViewController.m */,
+				069DD10C142EC8E30032439C /* RootViewController.xib */,
+				069DD0FB142EC8E30032439C /* Supporting Files */,
+			);
+			path = egawer;
+			sourceTree = "<group>";
+		};
+		069DD0FB142EC8E30032439C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				069DD0FC142EC8E30032439C /* egawer-Info.plist */,
+				069DD0FD142EC8E30032439C /* InfoPlist.strings */,
+				069DD100142EC8E30032439C /* main.m */,
+				069DD102142EC8E30032439C /* egawer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		069DD11C142EC8E40032439C /* egawerTests */ = {
+			isa = PBXGroup;
+			children = (
+				069DD122142EC8E40032439C /* egawerTests.h */,
+				069DD124142EC8E40032439C /* egawerTests.m */,
+				069DD11D142EC8E40032439C /* Supporting Files */,
+			);
+			path = egawerTests;
+			sourceTree = "<group>";
+		};
+		069DD11D142EC8E40032439C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				069DD11E142EC8E40032439C /* egawerTests-Info.plist */,
+				069DD11F142EC8E40032439C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		069DD0EF142EC8E30032439C /* egawer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 069DD128142EC8E40032439C /* Build configuration list for PBXNativeTarget "egawer" */;
+			buildPhases = (
+				069DD0EC142EC8E30032439C /* Sources */,
+				069DD0ED142EC8E30032439C /* Frameworks */,
+				069DD0EE142EC8E30032439C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = egawer;
+			productName = egawer;
+			productReference = 069DD0F0142EC8E30032439C /* egawer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		069DD113142EC8E30032439C /* egawerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 069DD12B142EC8E40032439C /* Build configuration list for PBXNativeTarget "egawerTests" */;
+			buildPhases = (
+				069DD10F142EC8E30032439C /* Sources */,
+				069DD110142EC8E30032439C /* Frameworks */,
+				069DD111142EC8E30032439C /* Resources */,
+				069DD112142EC8E30032439C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				069DD11B142EC8E40032439C /* PBXTargetDependency */,
+			);
+			name = egawerTests;
+			productName = egawerTests;
+			productReference = 069DD114142EC8E30032439C /* egawerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		069DD0E7142EC8E30032439C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = atrac613.io;
+			};
+			buildConfigurationList = 069DD0EA142EC8E30032439C /* Build configuration list for PBXProject "egawer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 069DD0E5142EC8E30032439C;
+			productRefGroup = 069DD0F1142EC8E30032439C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				069DD0EF142EC8E30032439C /* egawer */,
+				069DD113142EC8E30032439C /* egawerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		069DD0EE142EC8E30032439C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				069DD0FF142EC8E30032439C /* InfoPlist.strings in Resources */,
+				069DD108142EC8E30032439C /* MainWindow.xib in Resources */,
+				069DD10E142EC8E30032439C /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		069DD111142EC8E30032439C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				069DD121142EC8E40032439C /* InfoPlist.strings in Resources */,
+				069DD123142EC8E40032439C /* egawerTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		069DD112142EC8E30032439C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		069DD0EC142EC8E30032439C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				069DD101142EC8E30032439C /* main.m in Sources */,
+				069DD105142EC8E30032439C /* egawerAppDelegate.m in Sources */,
+				069DD10B142EC8E30032439C /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		069DD10F142EC8E30032439C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				069DD125142EC8E40032439C /* egawerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		069DD11B142EC8E40032439C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 069DD0EF142EC8E30032439C /* egawer */;
+			targetProxy = 069DD11A142EC8E40032439C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		069DD0FD142EC8E30032439C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				069DD0FE142EC8E30032439C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		069DD106142EC8E30032439C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				069DD107142EC8E30032439C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		069DD10C142EC8E30032439C /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				069DD10D142EC8E30032439C /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		069DD11F142EC8E40032439C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				069DD120142EC8E40032439C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		069DD126142EC8E40032439C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		069DD127142EC8E40032439C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		069DD129142EC8E40032439C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "egawer/egawer-Prefix.pch";
+				INFOPLIST_FILE = "egawer/egawer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		069DD12A142EC8E40032439C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "egawer/egawer-Prefix.pch";
+				INFOPLIST_FILE = "egawer/egawer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		069DD12C142EC8E40032439C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/egawer.app/egawer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "egawer/egawer-Prefix.pch";
+				INFOPLIST_FILE = "egawerTests/egawerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		069DD12D142EC8E40032439C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/egawer.app/egawer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "egawer/egawer-Prefix.pch";
+				INFOPLIST_FILE = "egawerTests/egawerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		069DD0EA142EC8E30032439C /* Build configuration list for PBXProject "egawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				069DD126142EC8E40032439C /* Debug */,
+				069DD127142EC8E40032439C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		069DD128142EC8E40032439C /* Build configuration list for PBXNativeTarget "egawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				069DD129142EC8E40032439C /* Debug */,
+				069DD12A142EC8E40032439C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		069DD12B142EC8E40032439C /* Build configuration list for PBXNativeTarget "egawerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				069DD12C142EC8E40032439C /* Debug */,
+				069DD12D142EC8E40032439C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 069DD0E7142EC8E30032439C /* Project object */;
+}
