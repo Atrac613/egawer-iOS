@@ -23,6 +23,34 @@
 		069DD121142EC8E40032439C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 069DD11F142EC8E40032439C /* InfoPlist.strings */; };
 		069DD123142EC8E40032439C /* egawerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 069DD122142EC8E40032439C /* egawerTests.h */; };
 		069DD125142EC8E40032439C /* egawerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 069DD124142EC8E40032439C /* egawerTests.m */; };
+		069DD131142EC9050032439C /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 069DD12F142EC9050032439C /* MainWindow-iPad.xib */; };
+		069DD134142EC9A10032439C /* smile.png in Resources */ = {isa = PBXBuildFile; fileRef = 069DD133142EC9A10032439C /* smile.png */; };
+		069DD136142EC9AC0032439C /* smile1.xml in Resources */ = {isa = PBXBuildFile; fileRef = 069DD135142EC9AC0032439C /* smile1.xml */; };
+		069DD13D142ECCAC0032439C /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069DD137142ECCAC0032439C /* Accelerate.framework */; };
+		069DD13E142ECCAC0032439C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069DD138142ECCAC0032439C /* AVFoundation.framework */; };
+		069DD13F142ECCAC0032439C /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069DD139142ECCAC0032439C /* CoreAudio.framework */; };
+		069DD140142ECCAC0032439C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069DD13A142ECCAC0032439C /* CoreGraphics.framework */; };
+		069DD141142ECCAC0032439C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069DD13B142ECCAC0032439C /* CoreMedia.framework */; };
+		069DD142142ECCAC0032439C /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069DD13C142ECCAC0032439C /* CoreVideo.framework */; };
+		069DD147142ECF470032439C /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 069DD144142ECF470032439C /* libopencv_core.a */; };
+		069DD148142ECF480032439C /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 069DD145142ECF470032439C /* libopencv_imgproc.a */; };
+		069DD149142ECF480032439C /* libopencv_objdetect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 069DD146142ECF470032439C /* libopencv_objdetect.a */; };
+		069DD156142ECFB60032439C /* laugh_1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 069DD14B142ECFB60032439C /* laugh_1.caf */; };
+		069DD157142ECFB60032439C /* laugh_10.caf in Resources */ = {isa = PBXBuildFile; fileRef = 069DD14C142ECFB60032439C /* laugh_10.caf */; };
+		069DD158142ECFB60032439C /* laugh_11.caf in Resources */ = {isa = PBXBuildFile; fileRef = 069DD14D142ECFB60032439C /* laugh_11.caf */; };
+		069DD159142ECFB60032439C /* laugh_2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 069DD14E142ECFB60032439C /* laugh_2.caf */; };
+		069DD15A142ECFB60032439C /* laugh_3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 069DD14F142ECFB60032439C /* laugh_3.caf */; };
+		069DD15B142ECFB60032439C /* laugh_4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 069DD150142ECFB60032439C /* laugh_4.caf */; };
+		069DD15C142ECFB60032439C /* laugh_5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 069DD151142ECFB60032439C /* laugh_5.caf */; };
+		069DD15D142ECFB60032439C /* laugh_6.caf in Resources */ = {isa = PBXBuildFile; fileRef = 069DD152142ECFB60032439C /* laugh_6.caf */; };
+		069DD15E142ECFB60032439C /* laugh_7.caf in Resources */ = {isa = PBXBuildFile; fileRef = 069DD153142ECFB60032439C /* laugh_7.caf */; };
+		069DD15F142ECFB60032439C /* laugh_8.caf in Resources */ = {isa = PBXBuildFile; fileRef = 069DD154142ECFB60032439C /* laugh_8.caf */; };
+		069DD160142ECFB60032439C /* laugh_9.caf in Resources */ = {isa = PBXBuildFile; fileRef = 069DD155142ECFB60032439C /* laugh_9.caf */; };
+		069DD165142ED3D30032439C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 069DD163142ED3D30032439C /* Localizable.strings */; };
+		069DD168142ED3DF0032439C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 069DD166142ED3DF0032439C /* Localizable.strings */; };
+		069DD16A142EDCF40032439C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 069DD169142EDCF40032439C /* icon.png */; };
+		069DD16C142EDCF90032439C /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 069DD16B142EDCF90032439C /* icon@2x.png */; };
+		069DD171142EDFAC0032439C /* icon72.png in Resources */ = {isa = PBXBuildFile; fileRef = 069DD170142EDFAC0032439C /* icon72.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,22 +68,50 @@
 		069DD0F4142EC8E30032439C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		069DD0F6142EC8E30032439C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		069DD0F8142EC8E30032439C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		069DD0FC142EC8E30032439C /* egawer-Info.plist */ = {isa = PBXFileReference; path = "egawer-Info.plist"; sourceTree = "<group>"; };
+		069DD0FC142EC8E30032439C /* egawer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "egawer-Info.plist"; sourceTree = "<group>"; };
 		069DD0FE142EC8E30032439C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		069DD100142EC8E30032439C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		069DD102142EC8E30032439C /* egawer-Prefix.pch */ = {isa = PBXFileReference; path = "egawer-Prefix.pch"; sourceTree = "<group>"; };
-		069DD103142EC8E30032439C /* egawerAppDelegate.h */ = {isa = PBXFileReference; path = egawerAppDelegate.h; sourceTree = "<group>"; };
+		069DD102142EC8E30032439C /* egawer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "egawer-Prefix.pch"; sourceTree = "<group>"; };
+		069DD103142EC8E30032439C /* egawerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = egawerAppDelegate.h; sourceTree = "<group>"; };
 		069DD104142EC8E30032439C /* egawerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = egawerAppDelegate.m; sourceTree = "<group>"; };
 		069DD107142EC8E30032439C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		069DD109142EC8E30032439C /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		069DD109142EC8E30032439C /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		069DD10A142EC8E30032439C /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		069DD10D142EC8E30032439C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
 		069DD114142EC8E30032439C /* egawerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = egawerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		069DD115142EC8E30032439C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		069DD11E142EC8E40032439C /* egawerTests-Info.plist */ = {isa = PBXFileReference; path = "egawerTests-Info.plist"; sourceTree = "<group>"; };
+		069DD11E142EC8E40032439C /* egawerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "egawerTests-Info.plist"; sourceTree = "<group>"; };
 		069DD120142EC8E40032439C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		069DD122142EC8E40032439C /* egawerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = egawerTests.h; sourceTree = "<group>"; };
 		069DD124142EC8E40032439C /* egawerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = egawerTests.m; sourceTree = "<group>"; };
+		069DD130142EC9050032439C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		069DD133142EC9A10032439C /* smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smile.png; path = images/smile.png; sourceTree = "<group>"; };
+		069DD135142EC9AC0032439C /* smile1.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = smile1.xml; path = haarcascade/smile1.xml; sourceTree = "<group>"; };
+		069DD137142ECCAC0032439C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		069DD138142ECCAC0032439C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		069DD139142ECCAC0032439C /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		069DD13A142ECCAC0032439C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		069DD13B142ECCAC0032439C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		069DD13C142ECCAC0032439C /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		069DD144142ECF470032439C /* libopencv_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_core.a; path = opencv_simulator/lib/libopencv_core.a; sourceTree = "<group>"; };
+		069DD145142ECF470032439C /* libopencv_imgproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_imgproc.a; path = opencv_simulator/lib/libopencv_imgproc.a; sourceTree = "<group>"; };
+		069DD146142ECF470032439C /* libopencv_objdetect.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_objdetect.a; path = opencv_simulator/lib/libopencv_objdetect.a; sourceTree = "<group>"; };
+		069DD14B142ECFB60032439C /* laugh_1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = laugh_1.caf; sourceTree = "<group>"; };
+		069DD14C142ECFB60032439C /* laugh_10.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = laugh_10.caf; sourceTree = "<group>"; };
+		069DD14D142ECFB60032439C /* laugh_11.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = laugh_11.caf; sourceTree = "<group>"; };
+		069DD14E142ECFB60032439C /* laugh_2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = laugh_2.caf; sourceTree = "<group>"; };
+		069DD14F142ECFB60032439C /* laugh_3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = laugh_3.caf; sourceTree = "<group>"; };
+		069DD150142ECFB60032439C /* laugh_4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = laugh_4.caf; sourceTree = "<group>"; };
+		069DD151142ECFB60032439C /* laugh_5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = laugh_5.caf; sourceTree = "<group>"; };
+		069DD152142ECFB60032439C /* laugh_6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = laugh_6.caf; sourceTree = "<group>"; };
+		069DD153142ECFB60032439C /* laugh_7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = laugh_7.caf; sourceTree = "<group>"; };
+		069DD154142ECFB60032439C /* laugh_8.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = laugh_8.caf; sourceTree = "<group>"; };
+		069DD155142ECFB60032439C /* laugh_9.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = laugh_9.caf; sourceTree = "<group>"; };
+		069DD164142ED3D30032439C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = egawer/ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		069DD167142ED3DF0032439C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = egawer/en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		069DD169142EDCF40032439C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		069DD16B142EDCF90032439C /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		069DD170142EDFAC0032439C /* icon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon72.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +122,15 @@
 				069DD0F5142EC8E30032439C /* UIKit.framework in Frameworks */,
 				069DD0F7142EC8E30032439C /* Foundation.framework in Frameworks */,
 				069DD0F9142EC8E30032439C /* CoreGraphics.framework in Frameworks */,
+				069DD13D142ECCAC0032439C /* Accelerate.framework in Frameworks */,
+				069DD13E142ECCAC0032439C /* AVFoundation.framework in Frameworks */,
+				069DD13F142ECCAC0032439C /* CoreAudio.framework in Frameworks */,
+				069DD140142ECCAC0032439C /* CoreGraphics.framework in Frameworks */,
+				069DD141142ECCAC0032439C /* CoreMedia.framework in Frameworks */,
+				069DD142142ECCAC0032439C /* CoreVideo.framework in Frameworks */,
+				069DD147142ECF470032439C /* libopencv_core.a in Frameworks */,
+				069DD148142ECF480032439C /* libopencv_imgproc.a in Frameworks */,
+				069DD149142ECF480032439C /* libopencv_objdetect.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,9 +151,14 @@
 		069DD0E5142EC8E30032439C = {
 			isa = PBXGroup;
 			children = (
+				069DD170142EDFAC0032439C /* icon72.png */,
+				069DD16B142EDCF90032439C /* icon@2x.png */,
+				069DD169142EDCF40032439C /* icon.png */,
 				069DD0FA142EC8E30032439C /* egawer */,
 				069DD11C142EC8E40032439C /* egawerTests */,
 				069DD0F3142EC8E30032439C /* Frameworks */,
+				069DD132142EC9660032439C /* Resources */,
+				069DD143142ECF240032439C /* Libraries */,
 				069DD0F1142EC8E30032439C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,6 +175,12 @@
 		069DD0F3142EC8E30032439C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				069DD137142ECCAC0032439C /* Accelerate.framework */,
+				069DD138142ECCAC0032439C /* AVFoundation.framework */,
+				069DD139142ECCAC0032439C /* CoreAudio.framework */,
+				069DD13A142ECCAC0032439C /* CoreGraphics.framework */,
+				069DD13B142ECCAC0032439C /* CoreMedia.framework */,
+				069DD13C142ECCAC0032439C /* CoreVideo.framework */,
 				069DD0F4142EC8E30032439C /* UIKit.framework */,
 				069DD0F6142EC8E30032439C /* Foundation.framework */,
 				069DD0F8142EC8E30032439C /* CoreGraphics.framework */,
@@ -116,6 +192,7 @@
 		069DD0FA142EC8E30032439C /* egawer */ = {
 			isa = PBXGroup;
 			children = (
+				069DD12E142EC8FA0032439C /* iPad */,
 				069DD103142EC8E30032439C /* egawerAppDelegate.h */,
 				069DD104142EC8E30032439C /* egawerAppDelegate.m */,
 				069DD106142EC8E30032439C /* MainWindow.xib */,
@@ -155,6 +232,70 @@
 				069DD11F142EC8E40032439C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		069DD12E142EC8FA0032439C /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				069DD12F142EC9050032439C /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		069DD132142EC9660032439C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				069DD162142ED3940032439C /* ja.lproj */,
+				069DD161142ED3840032439C /* en.lproj */,
+				069DD14A142ECFB60032439C /* sounds */,
+				069DD135142EC9AC0032439C /* smile1.xml */,
+				069DD133142EC9A10032439C /* smile.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		069DD143142ECF240032439C /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				069DD144142ECF470032439C /* libopencv_core.a */,
+				069DD145142ECF470032439C /* libopencv_imgproc.a */,
+				069DD146142ECF470032439C /* libopencv_objdetect.a */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		069DD14A142ECFB60032439C /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				069DD14B142ECFB60032439C /* laugh_1.caf */,
+				069DD14C142ECFB60032439C /* laugh_10.caf */,
+				069DD14D142ECFB60032439C /* laugh_11.caf */,
+				069DD14E142ECFB60032439C /* laugh_2.caf */,
+				069DD14F142ECFB60032439C /* laugh_3.caf */,
+				069DD150142ECFB60032439C /* laugh_4.caf */,
+				069DD151142ECFB60032439C /* laugh_5.caf */,
+				069DD152142ECFB60032439C /* laugh_6.caf */,
+				069DD153142ECFB60032439C /* laugh_7.caf */,
+				069DD154142ECFB60032439C /* laugh_8.caf */,
+				069DD155142ECFB60032439C /* laugh_9.caf */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+		069DD161142ED3840032439C /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				069DD166142ED3DF0032439C /* Localizable.strings */,
+			);
+			name = en.lproj;
+			sourceTree = "<group>";
+		};
+		069DD162142ED3940032439C /* ja.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				069DD163142ED3D30032439C /* Localizable.strings */,
+			);
+			name = ja.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +351,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ja,
 			);
 			mainGroup = 069DD0E5142EC8E30032439C;
 			productRefGroup = 069DD0F1142EC8E30032439C /* Products */;
@@ -230,6 +372,25 @@
 				069DD0FF142EC8E30032439C /* InfoPlist.strings in Resources */,
 				069DD108142EC8E30032439C /* MainWindow.xib in Resources */,
 				069DD10E142EC8E30032439C /* RootViewController.xib in Resources */,
+				069DD131142EC9050032439C /* MainWindow-iPad.xib in Resources */,
+				069DD134142EC9A10032439C /* smile.png in Resources */,
+				069DD136142EC9AC0032439C /* smile1.xml in Resources */,
+				069DD156142ECFB60032439C /* laugh_1.caf in Resources */,
+				069DD157142ECFB60032439C /* laugh_10.caf in Resources */,
+				069DD158142ECFB60032439C /* laugh_11.caf in Resources */,
+				069DD159142ECFB60032439C /* laugh_2.caf in Resources */,
+				069DD15A142ECFB60032439C /* laugh_3.caf in Resources */,
+				069DD15B142ECFB60032439C /* laugh_4.caf in Resources */,
+				069DD15C142ECFB60032439C /* laugh_5.caf in Resources */,
+				069DD15D142ECFB60032439C /* laugh_6.caf in Resources */,
+				069DD15E142ECFB60032439C /* laugh_7.caf in Resources */,
+				069DD15F142ECFB60032439C /* laugh_8.caf in Resources */,
+				069DD160142ECFB60032439C /* laugh_9.caf in Resources */,
+				069DD165142ED3D30032439C /* Localizable.strings in Resources */,
+				069DD168142ED3DF0032439C /* Localizable.strings in Resources */,
+				069DD16A142EDCF40032439C /* icon.png in Resources */,
+				069DD16C142EDCF90032439C /* icon@2x.png in Resources */,
+				069DD171142EDFAC0032439C /* icon72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +483,30 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
+		069DD12F142EC9050032439C /* MainWindow-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				069DD130142EC9050032439C /* en */,
+			);
+			name = "MainWindow-iPad.xib";
+			sourceTree = "<group>";
+		};
+		069DD163142ED3D30032439C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				069DD164142ED3D30032439C /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		069DD166142ED3DF0032439C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				069DD167142ED3DF0032439C /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -330,6 +515,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Osamu Noguchi (BQY439J4V9)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -344,7 +530,8 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PROVISIONING_PROFILE = "5FB26EB7-5CA2-436E-A191-21540F9BBF4D";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -354,6 +541,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Osamu Noguchi (BQY439J4V9)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -361,8 +549,9 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "5FB26EB7-5CA2-436E-A191-21540F9BBF4D";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -371,10 +560,28 @@
 		069DD129142EC8E40032439C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Osamu Noguchi (BQY439J4V9)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "egawer/egawer-Prefix.pch";
+				"HEADER_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = "\"$(SRCROOT)/opencv_device/include\"";
+				"HEADER_SEARCH_PATHS[sdk=iphonesimulator*][arch=*]" = "\"$(SRCROOT)/opencv_simulator/include\"";
+				IBC_PLUGIN_SEARCH_PATHS = "\"$(SRCROOT)/opencv_device/include\"";
 				INFOPLIST_FILE = "egawer/egawer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/opencv_simulator/lib\"",
+				);
+				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = "\"$(SRCROOT)/opencv_device/lib\"";
+				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*][arch=*]" = "\"$(SRCROOT)/opencv_simulator/lib\"";
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-lz",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5FB26EB7-5CA2-436E-A191-21540F9BBF4D";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -382,10 +589,28 @@
 		069DD12A142EC8E40032439C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Osamu Noguchi (BQY439J4V9)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "egawer/egawer-Prefix.pch";
+				"HEADER_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = "\"$(SRCROOT)/opencv_device/include\"";
+				"HEADER_SEARCH_PATHS[sdk=iphonesimulator*][arch=*]" = "\"$(SRCROOT)/opencv_simulator/include\"";
+				IBC_PLUGIN_SEARCH_PATHS = "\"$(SRCROOT)/opencv_device/include\"";
 				INFOPLIST_FILE = "egawer/egawer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/opencv_simulator/lib\"",
+				);
+				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = "\"$(SRCROOT)/opencv_device/lib\"";
+				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*][arch=*]" = "\"$(SRCROOT)/opencv_simulator/lib\"";
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-lz",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5FB26EB7-5CA2-436E-A191-21540F9BBF4D";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -424,6 +649,78 @@
 			};
 			name = Release;
 		};
+		069DD16D142EDED60032439C /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Osamu Noguchi (BQY439J4V9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PROVISIONING_PROFILE = "5FB26EB7-5CA2-436E-A191-21540F9BBF4D";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		069DD16E142EDED60032439C /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Osamu Noguchi (BQY439J4V9)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "egawer/egawer-Prefix.pch";
+				"HEADER_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = "\"$(SRCROOT)/opencv_device/include\"";
+				"HEADER_SEARCH_PATHS[sdk=iphonesimulator*][arch=*]" = "\"$(SRCROOT)/opencv_simulator/include\"";
+				IBC_PLUGIN_SEARCH_PATHS = "\"$(SRCROOT)/opencv_device/include\"";
+				INFOPLIST_FILE = "egawer/egawer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/opencv_simulator/lib\"",
+				);
+				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = "\"$(SRCROOT)/opencv_device/lib\"";
+				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*][arch=*]" = "\"$(SRCROOT)/opencv_simulator/lib\"";
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-lz",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5FB26EB7-5CA2-436E-A191-21540F9BBF4D";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		069DD16F142EDED60032439C /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/egawer.app/egawer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "egawer/egawer-Prefix.pch";
+				INFOPLIST_FILE = "egawerTests/egawerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Distribution;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -431,6 +728,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				069DD126142EC8E40032439C /* Debug */,
+				069DD16D142EDED60032439C /* Distribution */,
 				069DD127142EC8E40032439C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -440,6 +738,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				069DD129142EC8E40032439C /* Debug */,
+				069DD16E142EDED60032439C /* Distribution */,
 				069DD12A142EC8E40032439C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -448,6 +747,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				069DD12C142EC8E40032439C /* Debug */,
+				069DD16F142EDED60032439C /* Distribution */,
 				069DD12D142EC8E40032439C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
