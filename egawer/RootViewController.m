@@ -7,6 +7,7 @@
 //
 
 #import "RootViewController.h"
+#import "UIImage+AutoLevels.h"
 
 @implementation RootViewController
 @synthesize captureSession;
@@ -226,7 +227,7 @@
 
 -(void)captureOutput:(AVCaptureFileOutput *)captureOutput didOutputSampleBuffer:(CMSampleBufferRef) sampleBuffer fromConnection:(AVCaptureConnection *)connection {
     
-	UIImage *image = [self imageFromSampleBuffer:sampleBuffer];
+	UIImage *image = [[self imageFromSampleBuffer:sampleBuffer] imageWithAutoLevels];
     
 	[self opencvSmileDetect:image];		
 	

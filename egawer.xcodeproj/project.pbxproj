@@ -51,6 +51,8 @@
 		069DD16A142EDCF40032439C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 069DD169142EDCF40032439C /* icon.png */; };
 		069DD16C142EDCF90032439C /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 069DD16B142EDCF90032439C /* icon@2x.png */; };
 		069DD171142EDFAC0032439C /* icon72.png in Resources */ = {isa = PBXBuildFile; fileRef = 069DD170142EDFAC0032439C /* icon72.png */; };
+		06A3F73A16357F2600833A22 /* UIImage+AutoLevels.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A3F73916357F2600833A22 /* UIImage+AutoLevels.m */; };
+		06A3F73C16357F5700833A22 /* UIImage+AutoLevels.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A3F73916357F2600833A22 /* UIImage+AutoLevels.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +114,8 @@
 		069DD169142EDCF40032439C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		069DD16B142EDCF90032439C /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		069DD170142EDFAC0032439C /* icon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon72.png; sourceTree = "<group>"; };
+		06A3F73816357F2600833A22 /* UIImage+AutoLevels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AutoLevels.h"; sourceTree = "<group>"; };
+		06A3F73916357F2600833A22 /* UIImage+AutoLevels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AutoLevels.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +200,8 @@
 				069DD103142EC8E30032439C /* egawerAppDelegate.h */,
 				069DD104142EC8E30032439C /* egawerAppDelegate.m */,
 				069DD106142EC8E30032439C /* MainWindow.xib */,
+				06A3F73816357F2600833A22 /* UIImage+AutoLevels.h */,
+				06A3F73916357F2600833A22 /* UIImage+AutoLevels.m */,
 				069DD109142EC8E30032439C /* RootViewController.h */,
 				069DD10A142EC8E30032439C /* RootViewController.m */,
 				069DD10C142EC8E30032439C /* RootViewController.xib */,
@@ -426,6 +432,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06A3F73C16357F5700833A22 /* UIImage+AutoLevels.m in Sources */,
 				069DD101142EC8E30032439C /* main.m in Sources */,
 				069DD105142EC8E30032439C /* egawerAppDelegate.m in Sources */,
 				069DD10B142EC8E30032439C /* RootViewController.m in Sources */,
@@ -437,6 +444,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				069DD125142EC8E40032439C /* egawerTests.m in Sources */,
+				06A3F73A16357F2600833A22 /* UIImage+AutoLevels.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,7 +524,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Developer: Osamu Noguchi (BQY439J4V9)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Osamu Noguchi (BQY439J4V9)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -532,7 +540,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PROVISIONING_PROFILE = "5FB26EB7-5CA2-436E-A191-21540F9BBF4D";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7B821FC8-E174-4FF7-B34F-329CA19CB28B";
 				SDKROOT = iphoneos;
+				VALID_ARCHS = armv7;
 			};
 			name = Debug;
 		};
@@ -554,6 +564,7 @@
 				PROVISIONING_PROFILE = "5FB26EB7-5CA2-436E-A191-21540F9BBF4D";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = armv7;
 			};
 			name = Release;
 		};
@@ -561,7 +572,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer: Osamu Noguchi (BQY439J4V9)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Hayato Hoshi (8J6Y76EA33)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Osamu Noguchi (BQY439J4V9)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "egawer/egawer-Prefix.pch";
 				"HEADER_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = "\"$(SRCROOT)/opencv_device/include\"";
@@ -580,9 +591,10 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "5FB26EB7-5CA2-436E-A191-21540F9BBF4D";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5B788B81-7E6A-45B5-976E-AA4EC2448848";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7B821FC8-E174-4FF7-B34F-329CA19CB28B";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -611,6 +623,7 @@
 				PROVISIONING_PROFILE = "5FB26EB7-5CA2-436E-A191-21540F9BBF4D";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -673,6 +686,7 @@
 				PROVISIONING_PROFILE = "5FB26EB7-5CA2-436E-A191-21540F9BBF4D";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B2AFC211-74CB-42B4-B4C6-B05FC36F088C";
 				SDKROOT = iphoneos;
+				VALID_ARCHS = armv7;
 			};
 			name = Distribution;
 		};
@@ -702,6 +716,7 @@
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B2AFC211-74CB-42B4-B4C6-B05FC36F088C";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Distribution;
